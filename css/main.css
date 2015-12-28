@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+header{
+    background: #0A0A2A;
+    width: auto;
+    padding: 0 5%;
+}
+header h3{
+    margin: 0;
+    color: #04B45F;
+    padding: 10px;
+}
+header b {
+    color: white;    
+}
+button{
+    color: white;
+    background: transparent;
+    border-bottom-color:transparent;
+}
