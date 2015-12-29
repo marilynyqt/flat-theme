@@ -15,19 +15,48 @@
 }
 header{
     background: #0A0A2A;
-    width: auto;
-    padding: 0 5%;
+    height: 35px;
+    padding: 5px;
 }
-header h3{
-    margin: 0;
+header .logo{
     color: #04B45F;
-    padding: 10px;
+    height: auto;
+    width: 16%;
 }
-header b {
-    color: white;    
+header nav{
+    padding: 0 10%;
 }
 button{
     color: white;
     background: transparent;
-    border-bottom-color:transparent;
+    border:transparent;
+}
+/*Silder*/
+
+.carousel h1,.caroulsel h6{
+    position: relative;
+}
+.secver{
+    margin: 0;
+    padding: 35px;
+    background: #04B45F;
+}
+.media span,.media h3, media p{
+    display: inline-block;
+}
+.media p{
+    padding: 0 34px;
+}
+.media h3{
+    padding: 0 4px;
+}
+.media span{
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: transparent;
+    background-color: #000;
+    opacity: 0.5;
+}
+section {
 }
