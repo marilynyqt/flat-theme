@@ -47,15 +47,15 @@ button{
 }
 .secver{
     margin: 0;
-    padding: 35px;
+    padding: 40px;
     background: #04B45F;
 }
 .media span,.media h3, media p{
     display: inline-block;
 }
 .img-circle{
-    width: 39px;
-    height: 39px;
+    width: 45px;
+    height: 45px;
     border: transparent;
     background-color: #000;
     position: relative
@@ -65,14 +65,14 @@ button{
 }
 .icon-facebook,.icon-twitter,.icon-google-plus{
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     opacity: none;
     position: absolute;
     top: 10px;
-    padding: 2px 0 0 12px;
 }
-.icon-facebook{
-    padding: 2px 0 0 14px;
+icon-facebook{
+    padding: 0 5px;
 }
+
 section {
 }
