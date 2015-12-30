@@ -15,7 +15,7 @@
 }
 header{
     background: #0A0A2A;
-    height: 35px;
+    height: 40px;
     padding: 5px;
 }
 header .logo{
@@ -70,9 +70,10 @@ button{
     position: absolute;
     top: 10px;
 }
-icon-facebook{
-    padding: 0 5px;
-}
 
-section {
+.secred {
+    background:#FA5858;
+}
+.secred section h2{
+    margin:0;
 }
