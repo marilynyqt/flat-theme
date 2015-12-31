@@ -22,7 +22,12 @@ jQuery(function ($) {
     });
 
     //goto top
+    
+    
     $('.gototop').click(function (event) {
+        TweenMax.to('body',4{'scrollTo':'(y=0)', ease:Power4, easeOut});
+        
+        /*
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("body").offset().top
