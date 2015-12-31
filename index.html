@@ -21,123 +21,326 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-    <header>
-        <img class="logo col-md-7 col-md-offset-1" src="images/logo.png">
-        <nav class="col-md-4 col-md-offset-5 ">
-            <button>Home</button>
-            <button>About Us</button>
-            <button>Services</button>
-            <button>Portfolio</button>
-            <button><b>Blog</b></button>
-        </nav>
+    <header class="header navbar navbar-default navbar-fixed-top">
+           <div class="container-fluid">
+               <div class="navbar-header col-md-7">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo-logo col-xs-10"><img src="images/logo.png" class="col-xs-8 col-md-6"/ ></div>
+       </div>
+
+            <div class=" main-menu collapse navbar-collapse  col-md-5" id="bs-example-navbar-collapse-1">
+
+               <ul class="nav navbar-nav ">
+
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about-us.html">About Us</a></li>
+                     <li><a href="services.html">Services</a></li>
+                     <li><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+
+        </div>
+        </div>
     </header>
     <section>
-       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <div class="carousel carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="images/slider/bg1.jpg" alt="...">
-              <div class="carousel-caption">
+       <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+         <div class="carousel carousel-inner" role="listbox">
+            <div class="item active carruse1">
+              <img src="images/slider/bg1.jpg " alt="...">
+              <div class="carousel-caption col-md-7">
                   <h1>Powerful and Responsive Web Design</h1>
                   <h6>Pellentesque habitantmorbi tristique senectus et netus et malesuada famesac turis egestas</h6>
               </div>
             </div>
-            <div class="item">
+            <div class="item carruse1">
               <img src="images/slider/bg2.jpg" alt="...">
               <div class="carousel-caption">
                   <h1>Powerful and Responsive Web Design</h1>
                   <h6>Pellentesque habitantmorbi tristique senectus et netus et malesuada famesac turis egestas</h6>
               </div>
             </div>
-            <div class="item">
+            <div class="item carruse1">
               <img src="images/slider/bg3.jpg" alt="...">
               <div class="carousel-caption">
                    <h1>Powerful and Responsive Web Design</h1>
                    <h6>Pellentesque habitantmorbi tristique senectus et netus et malesuada famesac turis egestas</h6>
               </div>
             </div>
-        </div>
+         </div>
        </div>
-        <!--<div class="media">
-            <div class="col-md-4">
-                <span class="icon-twitter media-left media-middle"></span>
-                <h3>Twitter Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae quas autem blanditiis reprehenderit, quibusdam saepe, ratione sequi quasi eius facilis voluptates, amet repellat.</p>
-            </div>
-            <div class="col-md-4">
-                <span class="icon-facebook media-left media-middle"></span>
-                <h3>Facebook Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae quas autem blanditiis reprehenderit, quibusdam saepe, ratione sequi quasi eius facilis voluptates, amet repellat.</p>
-            </div>
-            <div class="col-md-4 media-left">
-                <span class="icon-google-plus media-left media-middle"></span>
-                <h3 class="media-heading">Google Plus</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae quas autem blanditiis reprehenderit, quibusdam saepe, ratione sequi quasi eius facilis voluptates, amet repellat.</p>
-            </div>
-        </div>-->
-        <div class="secver media">
-            <div class="col-md-4 media-left media-middle ">
-                <div class="col-md-2  img-circle trans">
-                     <span class="icon-twitter  media-object "></span>
-                </div>
-                <div class="col-md-10 pull-rigth">
-                    <h3 class="media-heading">Twitter Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae .</p>
-                </div>
-            </div>
-            <div class="col-md-4 media-left">
-                <div class="col-md-2 pull-left img-circle trans">
-                    <span class="icon-facebook  media-left media-middle"></span>
-                </div>
-                <div class="col-md-10 pull-rigth">
-                   <h3 class="media-heading">Facebook Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae.</p>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="col-md-2 img-circle trans">
-                    <span class="icon-google-plus  media-left media-middle"></span>
-                </div>
-                <div class="col-md-10 pull-rigth">
-                    <h3 class="media-heading">Google Plus</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, rerum architecto necessitatibus officia accusamus eum molestiae .</p>
+       <div class="secver ">
+            <div class="container">
+                <div class="row">
+                    <div class="media col-md-4">
+              <div class="media-left">
+                <a href="#">
+                <div class="media-object trans" ><i class="icon-twitter"></i></div>
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Twitter Marketing</h4>
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam feugiat vitae.
+              </div>
+    </div>
+                    <div class="media col-md-4">
+                          <div class="media-left">
+                <a href="#">
+                    <div class="media-object trans" ><i class="icon-facebook "></i></div>
+                </a>
+              </div>
+                          <div class="media-body">
+                <h4 class="media-heading">Facebook Marketing</h4>
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam feugiat vitae.
+              </div>
+    </div>
+                    <div class="media col-md-4">
+                          <div class="media-left">
+                <a href="#">
+                    <div class="media-object trans" ><i class="icon-google-plus"></i></div>
+                </a>
+              </div>
+                          <div class="media-body">
+                <h4 class="media-heading">Google Plus Marketing</h4>
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam feugiat vitae.
+              </div>
+    </div>
                 </div>
             </div>
         </div>
-        <div class="secred text-center">
-           <section class="col-xs-12 col-md-12">
-               <h2>What our clients say</h2>
-               <h6>Pellentesque habitantmorbi tristique senectus et netus et malesuada famesac turis egestas</h6>
-           </section>
-           <section class="col-md-6 col-xs-12">
-               <p>
-                   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam.</h5>
-                   <h6><h4>-</h4>Someonefamomus in Source Title</h6>
-               </p>
-           </section>
-           <section class="col-md-6 col-xs-12">
-               <p>
-                   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam.</h5>
-                   <h6><h4>-</h4>Someonefamomus in Source Title</h6>
-               </p>
-           </section>
-           <section class="col-md-6 col-xs-12">
-               <p>
-                   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam.</h5>
-                   <h6><h4>-</h4>Someonefamomus in Source Title</h6>
-               </p>
-           </section>
-           <section class="col-md-6 col-xs-12">
-               <p>
-                   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam.</h5>
-                   <h6><h4>-</h4>Someonefamomus in Source Title</h6>
-               </p>
-           </section>
+        <div class="latest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 latest-project">
+                        <h3>Our Latest Project</h3>
+                        <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                        <nav>
+                      <ul class="pagination">
+                        <li>
+                          <a href="#carousel-example-generico"  role="button"aria-label="Previous" data-slide="prev" >
+                            <span class="icon-chevron-left" aria-hidden="true"></span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#carousel-example-generico" role="button" data-slide="next" aria-label="Next">
+                            <span class="icon-chevron-right" aria-hidden="true"></span>
+
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+
+                    </div>
+                    <div class="col-md-9 slider-fotos">
+
+
+                        <div id="carousel-example-generico" class="carousel slide" data-ride="carousel">
+
+                      <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                               <div class="row">
+                                 <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                                    <a href="#">
+                                    <div class="thumbnail">
+                                     <img src="images/portfolio/recent/item1.png"/>
+                                      <div class="caption">
+                                         <p class="hidden-xs">Nova-Corporate site template</p>
+                                        <p class="visible-xs">Nova-Corp...</p>
+                                      </div>
+                                    </div>
+                                    </a>
+                                 </div>
+                                 <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                                   <a href="#">
+                                    <div class="thumbnail">
+                                     <img src="images/portfolio/recent/item3.png"/>
+                                      <div class="caption ">
+                                        <p class="hidden-xs">Fornax-Apps site template</p>
+                                        <p class="visible-xs">Fornax-Apps ...</p>
+                                      </div>
+                                    </div>
+                                    </a>
+    </div>
+                                 <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                                   <a href="#">
+                                    <div class="thumbnail">
+                                     <img src="images/portfolio/recent/item2.png"/>
+                                      <div class="caption">
+                                       <p class="hidden-xs">Flat Theme- Bussiness Theme</p>
+                                        <p class="visible-xs">Flat Theme- B...</p>
+                                      </div>
+                                    </div>
+                                    </a>
+    </div>
+                               </div>
+                            </div>
+                            <div class="item">
+                              <div class="row">
+                                  <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                                     <a href="#">
+                                      <div class="thumbnail">
+                                         <img src="images/portfolio/recent/item2.png"/>
+                                         <div class="caption">
+                                            <p class="hidden-xs">Nova-Corporate site template</p>
+                                            <p class="visible-xs">Nova-Corp...</p>
+                                          </div>
+                                    </div>
+                                   </a>
+                                  </div>
+                                  <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                               <a href="#">
+                               <div class="thumbnail">
+                               <img src="images/portfolio/recent/item1.png"/>
+                               <div class="caption ">
+                                <p class="hidden-xs">Fornax-Apps site template</p>
+                                <p class="visible-xs">Fornax-Apps ...</p>
+                              </div>
+                            </div>
+                            </a>
+                          </div>
+                                  <div class=" col-xs-4 col-sm-4 col-md-4 opcion1">
+                               <a href="#">
+                                <div class="thumbnail">
+                                 <img src="images/portfolio/recent/item3.png"/>
+                                  <div class="caption">
+                                    <p class="hidden-xs">Flat Theme- Bussiness Theme</p>
+                                    <p class="visible-xs">Flat Theme- B...</p>
+                              </div>
+                            </div>
+                            </a>
+                          </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="say">
+               <div class="container">
+           <h2>What our clients say</h2>
+           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+       </div>
+               <div class="container">
+           <div class="row">
+               <blockquote class="col-md-6">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+                <blockquote class="col-md-6">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+          </div>
+           <div class="row">
+               <blockquote class="col-md-6">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+                <blockquote class="col-md-6">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+          </div>
+       </div>
         </div>
     </section>
+    <footer class="footer ">
+            <div class="container">
+            <ul class="clearfix">
+            <li class="col-md-3">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum autem necessitatibus magni nesciunt tempora veritatis. Soluta velit, sunt dicta quisquam vitae, ipsam voluptas. Ad vel cum expedita sed numquam autem.</p>
+                <p> Soluta velit, sunt dicta quisquam vitae, ipsam voluptas. Ad vel cum expedita sed numquam autem.</p>
+            </li>
+            <li class="col-md-3 company"><h4>Company</h4>
+                <ul>
+                    <li><i class="icon-chevron-right"></i> Company Overview</li>
+                    <li><i class="icon-chevron-right"></i> Meet The Team</li>
+                    <li><i class="icon-chevron-right"></i> Our Awesome Partners</li>
+                    <li><i class="icon-chevron-right"></i> Our services</li>
+                    <li><i class="icon-chevron-right"></i> Frequently Asked Questions</li>
+                    <li><i class="icon-chevron-right"></i> Contact Us</li>
+                    <li><i class="icon-chevron-right"></i> Privacy Policy</li>
+                    <li><i class="icon-chevron-right"></i> Terms of Use</li>
+                    <li><i class="icon-chevron-right"></i> Copyright</li>
+                </ul>
+            </li>
+            <li class="col-md-3"><h4>Latest Blog</h4>
+                <ul class="media-list">
+              <li class="media">
+
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="images/blog/thumb1.jpg" alt="avatar"/>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                      <p >Pellentesque habitant morbi tristique senectus.</p><p> Posted 17 Aug 2013 </p>
+                  </div>
+
+              </li>
+              <li class="media">
+                  <div class="media-left media-middle">
+                      <img class="media-object" src="images/blog/thumb2.jpg" alt="avatar"/>
+                  </div>
+                  <div class="media-body">
+                      <p>Pellentesque habitant morbi tristique senectus</p><p>Posted 13 Sep 2013</p>
+                  </div>
+              </li>
+              <li class="media">
+
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="images/blog/thumb3.jpg" alt="avatar"/>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>Pellentesque habitant morbi tristique senectus</p><p>Posted 11 Jul 2013 </p>
+                  </div>
+              </li>
+            </ul>
+            </li>
+            <li class="col-md-3"><h4>Address</h4>
+                <p><strong>Twitter, Inc</strong></p>
+                <p>795 Folsom Ave, Suite 600 </p>
+                <p>San Francisco, CA 94107</p>
+                <p>P: (103)457-3457</p>
+                <h4>Newsletter</h4>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">Go!</button>
+                    </span>
+                </div>
+            </li>
+        </ul>
+       </div>
+        </footer>
+    <footer class="footer2 ">
+          <div class="container">
+           <p class="col-md-8">© 2013 ShapeBootstrap. All Rights Reserved</p>
+           <nav class="nav-footer col-md-4 pull-right">
+           <ul>
+           <li><a href="home.html">Home</a></li>
+           <li><a href="about-us.html">About us</a></li>
+           <li><a href="contact-us.html">Contact us</a></li>
+           <li><a href="#"><i class="icon-chevron-up gototop"></i></a></li>
+       </ul>
+       </nav>
+      </div>
+   </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
   </body>
 </html>
